@@ -1,0 +1,59 @@
+@font-face{
+    font-family: myFont;
+    src: url(digi.ttf);
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);
+    /* color: white; */
+    /* background-color:white; */
+    color: black;
+}
+
+.container {
+    margin: 100px auto;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: #fff; */
+}
+.btn{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+    transform: translate(-50%,-50%);
+}
+p {
+    font-size: 5.5rem;
+    /* color: white; */
+    /* font-family: myFont; */
+}
+
+button {
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.5rem;
+    width: 185px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color:  #65666682;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5ss;
+}
+@media (max-width:500px) {
+    p{
+        font-size: 3.5rem;
+    }
+}
